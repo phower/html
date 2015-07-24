@@ -1,0 +1,34 @@
+{
+    "name": "phower/html",
+    "description": "Some helper classes to generate HTML tags from PHP.",
+    "homepage": "https://github.com/phower/html",
+    "type": "library",
+    "require": {
+        "php": "^5.4",
+        "phower/escaper": "^0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "classmap-dev": [
+            "test/"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Brazao Ferreira",
+            "email": "pedro@phower.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/phower/html/issues"
+    },
+    "minimum-stability": "stable"
+}
