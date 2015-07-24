@@ -30,5 +30,10 @@
     "support": {
         "issues": "https://github.com/phower/html/issues"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x.x-dev"
+        }
+    }
 }
